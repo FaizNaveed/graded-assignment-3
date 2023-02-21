@@ -3,11 +3,10 @@ import numpy as np
 import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
-import plotly.express as px
 st.set_page_config(layout="wide")
 
 
-import pandas as pd
+
 url='https://drive.google.com/file/d/1vvtD_o59OXwJrBwiJATzEuquizzUowP-/view?usp=share_link'
 url='https://drive.google.com/uc?id=' + url.split('/')[-2]
 data = pd.read_csv(url)
